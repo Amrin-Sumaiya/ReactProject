@@ -71,7 +71,7 @@ const inputRef = useRef()
   }, []);
 
   const iconCode = temperatureData?.weather?.[0]?.icon;
-  const icon = allIcons[iconCode] || snow_icon;
+  const icon = allIcons[iconCode] || suncloud_icon;
 
 
   return (
